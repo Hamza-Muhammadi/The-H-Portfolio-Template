@@ -1,27 +1,47 @@
-# Master prompt: personalize this portfolio
+# Build your portfolio with AI
 
-Copy the text below into ChatGPT, Claude, Codex or another coding assistant. Attach this complete repository or ZIP first. The assistant needs the actual files; this prompt alone does not contain the template.
+Paste the following prompt into ChatGPT, Claude, or Gemini. If the AI cannot access the repository, download its ZIP and attach it.
 
----
+```text
+Help me create my personal portfolio using this GitHub template:
 
-You are helping me personalize the attached The H Portfolio community template by Ameer Hamza.
+https://github.com/Hamza-Muhammadi/The-H-Portfolio-Template
 
-Read README.md, portfolio.config.js, app.js, styles.css and customize.js before changing files. Preserve the existing cinematic dark theme, layout, animations, four entry cards, centred navigation and mobile stacking. This is a personalization task. Do not replace the website with a different design or introduce a framework or paid dependency.
+Handle the customization process for me. I am a beginner, so keep instructions simple and guide me one step at a time.
 
-First inspect the existing configuration and explain which information is missing. Ask me short questions with 2-4 selectable options where appropriate, plus free text for names and URLs. Ask in small batches. Collect:
-- My preferred public name, role, city, introduction and target audience.
-- My portrait. Preserve my face and expression; do not invent a replacement person.
-- Real projects: problem, my contribution, implemented features, stack, status, screenshots, live and source links. Mark demos as demos and unfinished work accurately.
-- Skills supported by my coursework or projects, services I actually offer, education institution names and qualifications.
-- Genuine roles, achievements and certificate URLs, if any.
-- My public email, WhatsApp international number, LinkedIn, GitHub and optional Instagram.
+STEP 1: READ THE TEMPLATE
+Read the repository files before making changes. If you cannot access the code through the link, explain how to download the repository ZIP and ask me to attach it. Do not create a different generic website instead.
 
-Never invent clients, revenue, testimonials, certificates, skills, institutional affiliations or product results. Do not copy the template author's identity or claim the bundled demos as client work. Omit fields and buttons that I choose not to publish. Do not ask for account passwords or API keys.
+STEP 2: ASK ABOUT ME
+Ask only 3–4 short questions at a time. Use multiple-choice options where helpful, and let me type names, details, and links.
 
-Prefer editing portfolio.config.js. Use customize.html if I want a no-code route. Keep user content inserted with textContent or equivalent safe DOM methods; reject javascript: and other unsafe URL protocols. The config and all site files are public when deployed. Do not put secrets or private records there.
+Collect my:
+- Name, professional role, introduction, and portrait.
+- Projects, skills, services, experience, and education.
+- Public contact details, social links, and optional resume.
 
-Keep the four entry actions functional: Explore Everything opens the full page; Explore My Work opens projects; Build With Me opens services; View My Profile opens The Full Story. Keep four primary links: Work, Expertise, About, Contact. Preserve the MIT license notice.
+Help me write professional descriptions based on my answers. Suggest suitable wording when I am unsure, then confirm it with me.
 
-Check all interactions: intro skip/play, entry cards, menu closing, project dialogs, Escape key, intro controls, education rendering and customizer export. Validate JavaScript syntax and inspect at 320px, 390px, 768px and desktop width. On mobile use stacked or wrapped content, with no horizontal page scrolling. Respect reduced motion and visible keyboard focus. If browser testing is unavailable, say exactly what was not verified.
+Do not invent qualifications, projects, clients, certificates, testimonials, or results. Leave out anything I do not want to publish. Label demos and unfinished work accurately.
 
-After personalization, return the complete updated files or a ZIP, a short list of changes and remaining information, and GitHub Pages instructions for my repository. Do not claim deployment succeeded without a real successful deployment result. Ask before creating public repositories or publishing my information unless I have already explicitly authorized that destination.
+STEP 3: CUSTOMIZE MY PORTFOLIO
+Personalize the existing template using my information. Preserve its cinematic style, animations, and main layout.
+
+Keep my face and expression unchanged if working with my photo. Make the website work well on mobile and desktop. Fix overflowing content, broken links, empty buttons, and horizontal page scrolling. Preserve the template’s license file.
+
+STEP 4: LET ME REVIEW IT
+Show me a working preview if your tool supports it. Otherwise, provide the complete downloadable files and the easiest instructions for opening the portfolio locally.
+
+Ask what I want changed and revise it until I approve. Clearly explain anything you could not test. Do not present screenshots as a working demo.
+
+STEP 5: HELP ME PUBLISH IT
+After I approve the portfolio, provide the complete final ZIP.
+
+Guide me through creating a repository in my own GitHub account, uploading the customized files, and publishing the website through GitHub Pages. Give me only the next necessary step each time.
+
+If connected tools allow you to perform these actions, do so within my authorization. Never ask for my password. Keep secrets and private records out of public files.
+
+Explain the difference between my repository link and my live website link. Do not claim the website is live unless deployment has been verified.
+
+Start by reading the template and asking me the first 3–4 questions.
+```
