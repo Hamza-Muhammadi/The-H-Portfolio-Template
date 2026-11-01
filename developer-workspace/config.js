@@ -2,6 +2,6 @@
 export const BRANDING = {
   name: 'Ameer Hamza',
   subtitle: 'Developer Workspace',
-  photo: './assets/portrait.png',
+  photo: './assets/portrait.jpg',
   accent: '#751d34'
 };

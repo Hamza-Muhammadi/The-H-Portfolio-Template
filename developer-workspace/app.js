@@ -1,4 +1,4 @@
-import {BRANDING} from './config.js';
+import {BRANDING} from './config.js?v=3';
 import {STATUSES,LANGUAGES,uid,safeUrl,makeBackup,validateBackup,removeProject,starter} from './model.js';
 const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
 const ICONS={board:'<rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M9 9v11M15 9v11"/>',code:'<path d="m8 6-6 6 6 6m8-12 6 6-6 6m-3-15-2 18"/>',link:'<path d="m10 13 4-4m-6 6-1 1a4 4 0 0 1-6-6l4-4a4 4 0 0 1 6 0m2 2 1-1a4 4 0 0 1 6 6l-4 4a4 4 0 0 1-6 0"/>',backup:'<ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v14a8 3 0 0 0 16 0V5M4 12a8 3 0 0 0 16 0"/>',search:'<circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/>',export:'<path d="M12 16V3m-5 5 5-5 5 5M4 14v6h16v-6"/>',plus:'<path d="M12 5v14M5 12h14"/>',edit:'<path d="m15 4 5 5-11 11H4v-5L15 4Zm-2 2 5 5"/>',spark:'<path d="m12 2 3 7 7 3-7 3-3 7-3-7-7-3 7-3 3-7Z"/>',folder:'<path d="M3 6h7l2 3h9v11H3V6Z"/>',copy:'<rect x="8" y="8" width="13" height="13" rx="2"/><path d="M16 5V3H3v13h2"/>',external:'<path d="M14 3h7v7m0-7L10 14M10 3H3v18h18v-7"/>'};

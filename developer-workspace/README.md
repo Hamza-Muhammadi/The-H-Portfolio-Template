@@ -7,7 +7,7 @@ A browser-local project board, snippet library and project link manager by Ameer
 1. Download the repository ZIP and extract it.
 2. Keep the `developer-workspace` folder. It is a separate app from the portfolio.
 3. Change your name, subtitle, portrait path and accent colour in `config.js`.
-4. Replace `assets/portrait.png` with your own picture. The included portrait belongs to Ameer Hamza and is for this branded demo, not a generic stock image.
+4. Replace `assets/portrait.jpg` with your own picture. The included portrait belongs to Ameer Hamza and is for this branded demo, not a generic stock image.
 5. Open this folder through a local HTTP server (for example VS Code Live Server). ES modules need HTTP, so do not double-click index.html.
 6. Add your own projects in the app. The starter project/task records are sample data, not live project results.
 
